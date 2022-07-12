@@ -1,0 +1,52 @@
+
+
+.section-wrapper{
+    height: 250px;
+}
+
+.home-section{
+    background-color:rgb(255, 255, 255)
+}
+.about-section{
+    background-color:rgb(255, 255, 255)
+}
+.products-section{
+    background-color:rgb(255, 255, 255)
+}
+.contact-section{
+    background-color: rgb(255, 255, 255);
+}
+
+nav a {
+    color: rgb(0,0,0);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header{
+    background-color: #BF7631;
+    position: relative;
+    padding: 1rem;
+}
+
+nav ul{
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+
+}
+
+section.products-section{
+    text-decoration: none;
+}
+footer{
+    background-color: #BF7631;
+    position: relative;
+    padding: 2rem;
+}

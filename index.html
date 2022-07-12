@@ -4,25 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Ecommerce Website</title>
 </head>
 <body>
     <header>
         <nav>
+            <a href="">eCommerce</a>
             <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#products">products</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="home">HOME</section>
-        <section id="about">ABOUT</section>
-        <section id="products">PRODUCTS</section>
-        <section id="contact">CONTACT</section>
+        <section class="section-wrapper home-section" id="home">
+            HOME
+            <br/>
+            Ceramics crafted by hand
+            <img src="assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" width="250" height="130">
+
+        </section>
+        <section class="section-wrapper about-section" id="about">
+            ABOUT
+            <br/> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
+            faucibus nisl tincidunt. Facilisis mauris sit amet massa.
+            <br/>
+            
+            <img src="assets/Vase_Dame_2048x2048.jpg" width="130" height="190">
+            <img src="assets/Cylinder_unglazed3_2048x2048.jpg" width=130 height=190>
+                    
+        </section>
+        <section class="section-wrapper products-section" id="products">
+            PRODUCTS
+            <br/>
+            <a href="">
+                <img src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" width="150" height="100">
+            
+                <br/>
+                MUNDO BOWLS $49.00
+                <br/>
+                Tincidunt praesent semper feugiat nibh
+                sed.
+                <br/>
+                Vulputate mi sit amet mauris
+                commodo quis imperdiet massa.
+                <br/>
+                 Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean.
+                <br/>
+                <button>Add to cart</button>
+
+            </a> 
+                
+             
+        </section>
+        <section class="section-wrapper contact-section" id="contact">
+            CONTACT US
+            <div class="container">
+                <from action="">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <br/>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <input type="text" id="message" name="message">
+                    </div>
+                    
+
+                </from>
+            </div>
+        
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <a href="">
+            <img src="assets/icons8-facebook-96 (1).png" width="50" height="50">
+            <img src="assets/icons8-instagram-96.png" width="50" height="50">
+            <img src="assets/icons8-youtube-96.png" width="50" height="50">
+        </a>
+    </footer>
 </body>
 </html>
