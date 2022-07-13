@@ -44,9 +44,17 @@ nav li {
 
 section.products-section{
     text-decoration: none;
+    
 }
 footer{
     background-color: #BF7631;
     position: relative;
     padding: 2rem;
+}
+#product{
+    display: flex
+
+}
+#product div{
+    align-items:center;
 }
